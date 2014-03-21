@@ -1,0 +1,29 @@
+<html>
+<head><title>My Test Extension Options</title></head>
+
+<body>
+Easiness of access:<br>
+<input type="radio" name="click" id="1"> 1 CLICK: Opens a link in a search result that can be opened
+                                           using NEU library credentials with single left 
+                                           mouse click </input> <br>
+<input type="radio" name="click" id="2"> 2 CLICK: Opens a link in a search result that can be opened
+                                           using NEU library credentials with a left click on
+                                           the icon shown in address bar </input> <br> 
+                                           
+<br>
+When to access with NEU library credentials: <br>
+<input type="radio" name="when" id="in"> Use NEU library credentials explicitely only when 
+                                          outside neu domain </input> <br>                                          
+<input type="radio" name="when" id="out"> Use NEU library credentials all the time irrespective of
+                                          location </input> <br>                 
+<br>
+<div id="DBrefresh" type="hidden"></div>
+<div id="isInNEU" type="hidden"></div>
+<div id="netIDrefresh" type="hidden"></div>
+<div id="status"></div>
+<button id="save">Save</button>
+</body>
+
+<script src="options.js"></script>
+
+</html>
